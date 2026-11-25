@@ -1,0 +1,4 @@
+# Git for Windows would otherwise check the scripts out with CRLF line ends, which bash cannot run
+*.sh text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
